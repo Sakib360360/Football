@@ -102,3 +102,21 @@ button {
     width: 450px;
     margin: 150px 0px 0px 0px;
 }
+.icons {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0px 0px 0px;
+}
+.icons i {
+    padding: 12px;
+    margin: 0px 9px;
+}
+.fa-bg {
+    background: #80808066;
+    border-radius: 100%;
+}
+.copy {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 29px;
+}
