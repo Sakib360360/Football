@@ -51,3 +51,54 @@ button {
 .player img{
     width: 100%;
 }
+
+/* Hightlight section */
+
+
+.highlight {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 87px;
+    margin-top: 150px;
+}
+.highlightleft{
+
+}
+.highlightleft h1 {
+    font-size: 53px;
+    margin-bottom: 0;
+    
+}
+.highlightleft p {
+    font-size: 16px;
+    margin-right: 100px;
+}
+
+#btnh {
+    margin: 37px 0px;
+    width: 180px;
+    border: 0px;
+    box-shadow: 0 0 10px #80808061;
+    border-radius: 5px;
+}
+#btnh:hover{
+    border: 2px solid grey;
+}
+
+.highlightimg img{
+    width: 100%;
+}
+.imgh{
+
+}
+
+/* footer */
+
+.footballimg {
+    display: flex;
+    justify-content: center;
+}
+.footballimg img {
+    width: 450px;
+    margin: 150px 0px 0px 0px;
+}
