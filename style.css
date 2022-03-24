@@ -120,3 +120,64 @@ button {
     justify-content: center;
     margin-bottom: 29px;
 }
+
+
+
+
+/* media query  */
+@media only screen and (max-width: 480px){
+    .bannar {
+        display: flex;
+        flex-direction: column;
+    }
+    .bannarimg img {
+        width: 291px;
+    }
+    .title h2 {
+        font-size: 30px;
+        margin-left: 109px;
+    }
+    .title button {
+        margin-left: 107px;
+    }
+    .players {
+        display: flex;
+        flex-direction: column;
+    }
+    .player {
+        width: 260px;
+        margin-left: -23px;
+        text-align: start;
+    }
+    .highlight {
+        margin: 45px;
+        display: flex;
+        flex-direction: column;
+    }
+    .highlightleft{
+
+    }
+    .highlightleft h1{
+
+    }
+    .highlightleft p{
+
+    }
+    #btnh{
+
+    }
+    .highlightimg{
+
+    }
+    .imgh{
+        
+    }
+    .footballimg img {
+        width: 278px;
+        margin: 0;
+    }
+    .footballimg img{
+
+    }
+    
+}
